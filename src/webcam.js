@@ -1,6 +1,6 @@
 'use strict';
 
-var remote = require('remote');
+const {remote} = require('electron');
 
 let videoSource = [];
 let videoIndex = 0;
